@@ -204,7 +204,7 @@ table {
 /* ============================================================ */
 
 .site-header {
-    padding: 100px 0 0;
+    padding: 70px 0 30px;
     overflow: auto;
     text-align: center;
     text-transform: uppercase;
@@ -308,15 +308,8 @@ table {
     &:last-child { margin-bottom: 0; }
 
     img {
-        width: calc(100% - 50px);
-    }
-
-    img:nth-child(2n+1) {
-        border-left: 50px solid rgb(240, 56, 56);
-    }
-
-    img:nth-child(2n+2) {
-        border-right: 50px solid rgb(240, 56, 56);
+        width: calc(100% - 31px);
+        border-left: 31px solid rgb(240, 56, 56);
     }
 }
 
@@ -584,7 +577,7 @@ table {
     hr { margin: 35px 0; }
 
     .site-header {
-        padding-top: 60px;
+        padding-top: 40px;
     }
 
     .site-nav-item {
@@ -663,7 +656,7 @@ table {
 
 @media only screen and (max-width: 400px) {
     .site-header {
-        padding-top: 40px;
+        padding-top: 20px;
     }
 
     .post-title,

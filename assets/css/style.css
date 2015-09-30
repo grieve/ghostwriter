@@ -181,7 +181,7 @@ table {
 /* Site Header */
 /* ============================================================ */
 .site-header {
-  padding: 100px 0 0;
+  padding: 70px 0 30px;
   overflow: auto;
   text-align: center;
   text-transform: uppercase; }
@@ -278,13 +278,8 @@ table {
   margin-bottom: 0; }
 
 .post-content img {
-  width: calc(100% - 50px); }
-
-.post-content img:nth-child(2n+1) {
-  border-left: 50px solid #f03838; }
-
-.post-content img:nth-child(2n+2) {
-  border-right: 50px solid #f03838; }
+  width: calc(100% - 31px);
+  border-left: 31px solid #f03838; }
 
 .post-footer {
   margin-top: 5px; }
@@ -515,7 +510,7 @@ table {
   hr {
     margin: 35px 0; }
   .site-header {
-    padding-top: 60px; }
+    padding-top: 40px; }
   .site-nav-item {
     display: block;
     margin: 15px 0; }
@@ -568,7 +563,7 @@ table {
 
 @media only screen and (max-width: 400px) {
   .site-header {
-    padding-top: 40px; }
+    padding-top: 20px; }
   .post-title,
   .page-title,
   .author-name,
