@@ -280,10 +280,10 @@ table {
 .post-content img {
   width: calc(100% - 50px); }
 
-.post-content img:nth-child(even) {
+.post-content img:nth-child(2n+1) {
   border-left: 50px solid #f03838; }
 
-.post-content img:nth-child(odd) {
+.post-content img:nth-child(2n+2) {
   border-right: 50px solid #f03838; }
 
 .post-footer {

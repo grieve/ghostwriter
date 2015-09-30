@@ -311,11 +311,11 @@ table {
         width: calc(100% - 50px);
     }
 
-    img:nth-child(even) {
+    img:nth-child(2n+1) {
         border-left: 50px solid rgb(240, 56, 56);
     }
 
-    img:nth-child(odd) {
+    img:nth-child(2n+2) {
         border-right: 50px solid rgb(240, 56, 56);
     }
 }
