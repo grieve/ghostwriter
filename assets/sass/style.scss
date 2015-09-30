@@ -306,6 +306,18 @@ table {
     }
 
     &:last-child { margin-bottom: 0; }
+
+    img {
+        width: calc(100% - 50px);
+    }
+
+    img:nth-child(even) {
+        border-left: 50px solid rgb(240, 56, 56);
+    }
+
+    img:nth-child(odd) {
+        border-right: 50px solid rgb(240, 56, 56);
+    }
 }
 
 .post-footer { margin-top: 5px; }
