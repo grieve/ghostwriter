@@ -18,6 +18,10 @@
             <p class="post-tags"><span>Tagged:</span> {{tags}}</p>
         {{/if}}
 
+        <h1 class="site-title">
+            <a class="js-ajax-link js-show-index" title="More articles" href="{{@blog.url}}">More articles</a>
+        </h1>
+
         <div class="share">
             <a class="icon-twitter" href="http://twitter.com/share?text={{encode title}}&url={{url absolute="true"}}"
                 onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
