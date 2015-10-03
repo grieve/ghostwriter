@@ -358,7 +358,7 @@ table {
     .post-stub a:hover {
       background: #FCF5F5;
       color: #F03838;
-      padding: 20px 12px; }
+      padding: 20px 5px; }
       .post-stub a:hover .post-stub-tag {
         background: #F03838; }
 
